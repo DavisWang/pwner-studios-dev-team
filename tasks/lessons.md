@@ -24,3 +24,9 @@
 - Existing projects need an intake phase before normal delegation.
 - Brownfield mode should inspect current docs/code, classify artifacts, and run a targeted loop by default.
 - Existing repo docs remain source material; the harness overlay under `./docs/project/` becomes the canonical working layer for the current loop.
+
+### Missing sprites do not justify off-style animation
+
+- The visual brief is the source of truth for how animation should look.
+- If style-consistent animation needs new sprites or frames, generate them.
+- Play Tester should fail builds that ship line-art or placeholder animation that contradicts the brief.

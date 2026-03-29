@@ -30,3 +30,4 @@ Use this checklist whenever the harness changes.
 - Mock Player skill mentions first-session fairness and responsiveness, not just vague fun feedback.
 - README guidance covers both greenfield and existing-project invocation paths.
 - The existing-project intake template exists and uses the fixed artifact-status vocabulary.
+- Visual, developer, and play-tester guidance all treat the visual brief as the source of truth for animation style.

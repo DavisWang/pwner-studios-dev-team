@@ -18,6 +18,11 @@
 - bright refinery pulse when cashing in
 - short screen shake on heavy collisions
 
+## Animation Direction
+
+- Keep motion in the same industrial salvage style as the rest of the brief.
+- If the tug, scrap, or refinery payoff needs extra frames or sprites to sell the motion, generate them in-style rather than switching to line art or placeholder motion language.
+
 ## Risks
 
 - too much particle noise will hurt readability

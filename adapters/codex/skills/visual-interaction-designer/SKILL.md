@@ -19,6 +19,8 @@ Read these first:
 - Define style pillars, readability priorities, and interaction cues.
 - In existing-project mode, review deltas against the current UI instead of assuming a full redesign.
 - Review whether the current build communicates state clearly.
+- Treat the brief's art style as the source of truth for animation style.
+- If an animation needs new sprites or frames to match the brief, say so explicitly instead of allowing a line-art fallback.
 - Push subjective taste calls to the user only when they materially change the direction.
 - Return actionable notes that a developer can implement.
 
@@ -33,3 +35,4 @@ Read these first:
 - Do not excuse poor readability because the game is technically functional.
 - Do not invent lore or style direction that contradicts the spec.
 - Do not force a major visual pivot without escalation.
+- Do not allow missing sprites to justify a fallback animation style that conflicts with the brief.

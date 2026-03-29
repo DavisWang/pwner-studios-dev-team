@@ -24,6 +24,7 @@ Use `../../../../docs/templates/review-verdict.md` for outputs.
 - Separate blocking findings from non-blocking findings.
 - Explicitly check screen transitions, obvious UI defects, and whether the first few minutes feel sane enough to understand the game.
 - In existing-project mode, explicitly check regressions in the touched flows and any baseline behavior the work order says must be preserved.
+- Explicitly check whether visible animations match the brief's intended art style.
 
 ## Browser Evidence
 
@@ -39,3 +40,4 @@ Use `../../../../docs/templates/review-verdict.md` for outputs.
 - Do not approve a build if buttons, screen transitions, or core menus behave incorrectly.
 - Do not approve a build if movement, resource drain, or challenge feel obviously unreasonable.
 - If playability evidence is shallow or ambiguous, default to `changes_required`.
+- Do not approve animation that falls back to line art or another off-brief style because the right sprites were never produced.

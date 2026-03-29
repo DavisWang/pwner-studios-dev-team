@@ -19,6 +19,7 @@ Read these first:
 - Create an implementation plan before writing major code.
 - In existing-project mode, inspect the current architecture and identify the touched subsystems before changing anything.
 - Produce a runnable build that matches the active platform profile.
+- When the visual brief requires a style-specific animation, generate the needed sprites or frames instead of substituting a cheaper fallback style.
 - Document run steps, architecture choices that matter, and known compromises.
 - Hand the build to the Play Tester with explicit evidence that it is ready.
 
@@ -34,3 +35,4 @@ Read these first:
 - Do not assume undocumented behavior is acceptable.
 - Do not hand off a build that is not locally runnable.
 - Do not rewrite unrelated working systems when a targeted change is enough.
+- Do not use line art or off-brief placeholder animation when the requested style requires proper sprite generation.

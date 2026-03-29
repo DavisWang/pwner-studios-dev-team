@@ -335,6 +335,14 @@ Even for v1, the harness should block approval if:
 - text clips or overflows obviously
 - the first few minutes feel clearly unfair, dead, or unreasonable
 
+### 5. Animation style follows the brief
+
+If the visual brief implies a specific art style for animation, that style is the source of truth.
+
+- Do not fall back to line art or placeholder animation just because the needed sprites do not exist yet.
+- If the animation needs new sprites or frames to match the brief, generate them.
+- Play Tester should block approval if shipped animation visibly contradicts the brief's art style.
+
 ## If You Want The Easiest Reuse Path Later
 
 The next useful upgrade is:

@@ -34,6 +34,7 @@ Define and enforce the acceptance bar for gameplay logic, state transitions, UI 
 - defect reports with reproduction steps and evidence
 - blocking versus non-blocking findings called out explicitly
 - explicit notes on screen or state transitions, obvious UI bugs, and first-session playability or balance sanity
+- explicit notes on whether visible animations match the brief's intended art style
 
 ## Non-Goals
 
@@ -68,3 +69,4 @@ Define and enforce the acceptance bar for gameplay logic, state transitions, UI 
 - approval requires a first-session playability pass that answers whether the game is controllable, survivable, and understandable enough to convey the intended loop
 - if movement, resource drain, challenge curve, or pacing feels obviously broken or unreasonable, the default verdict is `changes_required`
 - existing-project mode explicitly checks for regressions in touched flows and preserved baseline behavior
+- approval requires blocking any animation that obviously violates the brief's art style because of missing sprites or placeholder line art

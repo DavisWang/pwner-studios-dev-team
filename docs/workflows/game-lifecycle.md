@@ -26,6 +26,7 @@ This is the canonical browser-first project flow for the harness. It supports bo
 - Mock Player feedback is advisory input to the Producer, not an automatic phase gate.
 - The Producer must use conservative approval: if evidence is weak or obviously misses a basic bug, playability issue, or screen-flow issue, the default is `changes_required`.
 - A v1 prototype is still expected to have working buttons, sane navigation, no obvious UI breakage, and a playable first-session loop.
+- The visual brief is the source of truth for animation style; missing sprites are an asset-generation problem, not a reason to switch to line art or another off-brief fallback.
 - Existing-project mode defaults to targeted refresh, not full re-baselining.
 - Existing docs and code are source material; the harness overlay under `./docs/project/` is the canonical working layer for the current loop.
 - Existing working behavior should be preserved unless the request explicitly changes it.
@@ -50,3 +51,4 @@ Escalate to the user when any of the following happens:
 - Play Tester outputs must explicitly cover navigation or state transitions, default-viewport UI sanity, and first-session playability.
 - Producer approval must cite both Play Tester and Mock Player evidence for playable builds.
 - Existing-project intake must capture docs reviewed, code areas reviewed, current run/test commands, artifact status, and targeted loop scope before delegation starts.
+- Play Tester outputs must explicitly flag animation that breaks the brief's art style because the required sprites or frames were not produced.
