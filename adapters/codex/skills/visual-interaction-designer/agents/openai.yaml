@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual/Interaction Designer"
+  short_description: "Own readability and interaction feel"
+  default_prompt: "Use $visual-interaction-designer to define the visual direction, interaction cues, and gameplay-facing polish notes for this game."

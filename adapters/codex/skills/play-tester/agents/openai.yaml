@@ -1,0 +1,4 @@
+interface:
+  display_name: "Play Tester"
+  short_description: "Test the build and issue verdicts"
+  default_prompt: "Use $play-tester to create a test plan, validate the build, and return an evidence-backed review verdict."

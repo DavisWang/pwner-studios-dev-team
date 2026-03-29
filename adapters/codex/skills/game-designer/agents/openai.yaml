@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Designer"
+  short_description: "Turn briefs into shippable specs"
+  default_prompt: "Use $game-designer to turn this game brief into a canonical, testable game spec with clear scope and assumptions."

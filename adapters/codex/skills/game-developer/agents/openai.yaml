@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Developer"
+  short_description: "Build and document the game"
+  default_prompt: "Use $game-developer to turn the approved game spec into an implementation plan, a runnable build, and clear implementation notes."

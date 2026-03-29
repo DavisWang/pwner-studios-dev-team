@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mock Player"
+  short_description: "Pressure-test fun and challenge"
+  default_prompt: "Use $mock-player to review this game like a likely Pwner Studios player and suggest concrete fun, challenge, and replay improvements."
